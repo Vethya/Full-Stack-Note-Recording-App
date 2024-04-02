@@ -2,7 +2,7 @@ import axios from "axios";
 import { ACCESS_TOKEN } from "./constants";
 
 const apiUrl =
-  "/choreo-apis/fullstacknoterecordingapp/backend/rest-api-be2/v1.0";
+  "https://4443db2d-88d1-4a09-87f7-d7f310f2f955-dev.e1-us-cdp-2.choreoapis.dev/fullstacknoterecordingapp/backend/rest-api-be2/v1.0";
 
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL : apiUrl,
